@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Customer Login</title>
+</head>
+
+        <!--these fonts belong with the css for this page but I only get default fonts if they are there-->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+</style>
+  
+
+<body>
+    <header>
+        <!--I couldn't get this logo from fontawesome to work-->
+            <li><i class="fas fa-map-marked-alt"></i></li>
+            <h1><a href=index.html>TE Travel Experts</a></h1>
+        <nav>
+            <ul>
+                <li><a href=index.html>Home</a></li>
+                <li><a href=register.html>Register</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!--customer login form-->
+    <form action="https://www.w3schools.com/action_page.php" method="POST" target="_blank">
+        <fieldset
+            style="background-color: rgb(36, 157, 173);width: 200px;margin: 20px;padding: 30px; justify-content: center; font-family: Kaushan Script; ">
+            <legend>CUSTOMER LOGIN</legend>
+            <br><br>Email<br>
+            <input type="text" name="email" required>
+            <br><br>Password<br>
+            <input type="password" name="password" required>
+        </fieldset>
+
+        <br><br>
+        <input type="reset" value="Reset" &nbsp;&nbsp;&nbsp;&nbsp;>
+        <input type="submit" value="Submit">
+
+        <footer>
+            <p>&copy; Travel Experts 2020 Sean MacLennan CPRG210
+            <p>
+        </footer>
+
+</body>
+
+</html>

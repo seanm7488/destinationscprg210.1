@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel= "stylesheet" type="text/css" href="register.css">
+  <title>Customer Registration</title>
+</head>
+
+  <!--these fonts belong in the css for this page but I only get default fonts if they are there-->
+<style> 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+</style>
+
+<body>
+    <header>
+      <!--logo from from fontawesome that I couldn't get working-->
+        <li><i class="fas fa-map-marked-alt"></i></li>
+        <h1><a href=index.html>TE Travel Experts</a></h1>
+        <nav>
+          <ul>
+            <li><a href=index.html>Home</a></li>
+            <li><a href=login.html>Login</a></li>
+          </ul>
+        </nav>
+      </header>
+<!--customer sign up form-->
+    <form action="https://www.w3schools.com/action_page.php" method="POST" target="_blank">
+        <fieldset style="background-color: #1a94a0;width: 200px;margin: 20px;padding: 30px; justify-content: center; font-family: Kaushan Script; ">
+            <legend>REGISTER HERE:</legend>
+            <br><br>Full Name<br>
+            <input type="text" name="fullname" required>
+            <br><br>Email<br>
+            <input type="text" name="email" required>
+            <br><br>Password<br>
+            <input type="password" name="password" required>
+            <br><br>Confirm Password<br>
+            <input type="confirmpassword" name="confirmpassword" required>
+        </fieldset>
+
+        <input type="checkbox" name="newsletter" value="newsletter"> Subscribe to Newsletter <br>
+        <br><br>
+        <input type="reset" value="Reset" &nbsp;&nbsp;&nbsp;&nbsp;>
+        <input type="submit" value="Submit">
+
+<footer> <p>&copy; Travel Experts 2020 Sean MacLennan CPRG210<p></footer>
+
+</body>
+
+</html>

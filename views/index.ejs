@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>travel-experts main page</title>
+  </head>
+  <!--these font urls belong in my css folder, but I can't get anything but default fonts if they are there-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+  </style>
+
+  <body>
+    <header>
+      <!--this is a logo from fontawesome that I can't get to work -->
+      <i class="fas fa-archway"></i>
+      <h1>TE Travel Experts</h1>
+      <nav>
+        <ul>
+          <li><a href=index.html>Home</a></li>
+          <li><a href=login.html>Login</a></li>
+          <li><a href=register.html>Register</a></li>
+          <li><a href=gallery.html>Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--customer sign-up banner-->
+    <h1><a href=register.html>Sign Up Now!</a></h1>
+    <!--contact-us form-->
+    <main>
+      <form action="https://www.w3schools.com/action_page.php" method="POST" target="_blank">
+        <fieldset style= "background-color: #1a94a0;width: 200px;margin: 20px;padding: 30px; justify-content: center; font-family: Kaushan Script; ">
+          <legend>CONTACT US:</legend>
+          <br><br>Full Name<br>
+          <input type="text" name="fullname" required>
+          <br><br>Email<br>
+          <input type="text" name="email" required>
+        </fieldset>
+        <!--gallery with links to external web pages-->
+        <p>Check out some of out fantastic Destinations!</P>
+          
+          <div class="flex-container">
+          <div class="container">
+          <img src="https://picsum.photos/id/1015/300/300" alt= "picture of Norway"><img>
+          <div class="centered"><a href=https://www.visitnorway.com>Norway</a></div>
+          </div>
+          
+          
+          <div class="container">
+          <img src="https://picsum.photos/id/1018/300/300" alt= "picture of Japan"><img>
+          <div class="centered"><a href=https://japancustomtours.co.nz>Japan</a></div>
+          </div>
+
+          
+          <div class="container">
+          <img src="https://picsum.photos/id/1016/300/300" alt= "picture of Austrailia"><img>
+          <div class="centered"><a href=https://www.australiantraveller.com>Austrailia</a></div>
+          </div>
+
+          <br>
+          <div class="container">
+          <img src="https://picsum.photos/id/1043/300/300" alt= "picture of of Canada"><img>
+          <div class="centered"><a href=https://www.globusjourneys.ca>Canada</a></div>
+          </div>
+
+          
+          <div class="container">
+          <img src="https://picsum.photos/id/1040/300/300" alt=" picture of Austria"><img>
+          <div class="centered"><a href=https://www.austria.info/en>Austria</a></div>
+          </div>
+
+          
+          <div class="container">
+          <img src="https://picsum.photos/id/1038/300/300" alt=" picture of Alaska"><img>
+          <div class="centered"><a href=https://alaskashoretours.com>Alaska</a></div>
+          </div>
+
+          <div class="container">
+          <img src="https://picsum.photos/id/100/300/300" alt=" picture of Israel"><img>
+          <div class="centered"><a href=https://www.touristisrael.com>Israel</a></div>
+          </div>
+
+
+          <div class="container">
+          <img src="https://picsum.photos/id/101/300/300" alt=" picture of North Korea"><img>
+          <div class="centered"><a href=https://koryogroup.com>North Korea</a></div>
+          </div>
+
+         </div> 
+            
+
+    </main>
+    <footer>
+      <p>&copy; Travel Experts 2020 Sean MacLennan CPRG210<p>
+    </footer>
+  </body>
+
+</html>

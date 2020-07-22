@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  background-color: #9e5826;
+  background-blend-mode: #1a94a0;
+
+}
+header {
+  background-image: url(https://picsum.photos/id/397/500/500);
+  background-size: cover;
+  margin: 0;
+  height: 35vh;
+  }
+
+header h1 a {
+  font-family: 'Kaushan Script', cursive;
+  background-image: src="https://picsum.photos/id/397/300/300";
+  color: white;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  background-color: grey;
+  font-family: 'Kaushan Script', cursive; 
+}
+
+nav li {
+  flex: auto;
+}
+
+nav a {
+  font-family: 'Kaushan Script', cursive;
+  padding: 0.75em 1em;
+  display: block;
+
+  background-color: blue;
+  background-image: linear-gradient(lightgrey, grey);
+  border: 1px solid black;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-image: linear-gradient(grey, lightgrey);
+}
+
+nav a:active {
+  background-image: linear-gradient(rebeccapurple, lightgrey);
+}
+
+footer{
+    font-family: 'Montserrat', 'cursive'
+}
+
